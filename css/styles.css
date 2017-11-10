@@ -1,0 +1,113 @@
+.afterplay {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    text-align: center;
+    padding: 40px;
+    font-weight: 700;
+    font-size: 200%;
+    animation-name: buble;
+    animation-duration: 2s;
+}
+
+@keyframes buble {
+    0% {
+        background-color: red;
+        padding: 100px 50px 0px 50px;
+        opacity: 0.8;
+    }
+    25% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: red;
+        padding: 5px 50px 90px 50px;
+        opacity: 0.5;
+    }
+}
+
+.clape {
+    position: fixed;
+    top: 400px;
+}
+
+.defaultred {
+    font-weight: normal;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    background-color: red;
+    padding: 60px;
+}
+
+.defaultblue {
+    font-weight: normal;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    background-color: blue;
+    padding: 60px;
+}
+
+.defaultyellow {
+    font-weight: normal;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    background-color: yellow;
+    padding: 60px;
+}
+
+.defaultgreen {
+    font-weight: normal;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    background-color: green;
+    padding: 60px;
+}
+
+.defaultorange {
+    font-weight: normal;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    background-color: orange;
+    padding: 60px;
+}
+
+.defaultolive {
+    font-weight: normal;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    background-color: olive;
+    padding: 60px;
+}
+
+.defaultaquamarine {
+    font-weight: normal;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    background-color: aquamarine;
+    padding: 60px;
+}
